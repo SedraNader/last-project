@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام إدارة المهام - مشروع إدارة التكوين</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>📋 نظام المهام</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">🏠 الرئيسية</a>
+                <a href="login.html">🔐 تسجيل الدخول</a>
+                <a href="tasks.html">✅ المهام</a>
+                <a href="team.html">👥 الفريق</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- المحتوى الرئيسي -->
+    <main class="container">
+        <header class="hero">
+            <h1>🚀 مشروع نظام إدارة المهام</h1>
+            <p class="subtitle">مشروع تطبيقي لمادة <strong>إدارة التكوين</strong> - تطبيق عملي لـ Git وGitHub</p>
+        </header>
+
+        <!-- معلومات المشروع -->
+        <section class="project-info">
+            <h2>🎯 عن المشروع</h2>
+            <p>هذا المشروع جزء من متطلبات مادة إدارة التكوين. يهدف إلى:</p>
+            <ul>
+                <li>تطبيق مفاهيم <strong>التحكم بالإصدار</strong> باستخدام Git</li>
+                <li>استخدام <strong>GitHub</strong> للتعاون بين أعضاء الفريق</li>
+                <li>بناء تطبيق ويب حقيقي لإدارة المهام</li>
+                <li>توثيق عملية التطوير بشكل كامل</li>
+            </ul>
+        </section>
+
+        <!-- فريق العمل -->
+        <section class="team-section">
+            <h2>👥 فريق العمل</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <h3>الطالب الأول</h3>
+                    <p><strong>الدور:</strong> مطور واجهة أمامية</p>
+                    <p><strong>المسؤوليات:</strong></p>
+                    <ul>
+                        <li>تطوير HTML/CSS</li>
+                        <li>تصميم واجهة المستخدم</li>
+                        <li>كتابة JavaScript</li>
+                    </ul>
+                </div>
+                <div class="team-card">
+                    <h3>الطالب الثاني</h3>
+                    <p><strong>الدور:</strong> مطور خلفية ومراجع</p>
+                    <p><strong>المسؤوليات:</strong></p>
+                    <ul>
+                        <li>إدارة مستودع GitHub</li>
+                        <li>مراجعة الكود (Code Review)</li>
+                        <li>دمج التغييرات (Merge)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- تقنيات مستخدمة -->
+        <section class="tech-section">
+            <h2>🛠 التقنيات المستخدمة</h2>
+            <div class="tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Git</span>
+                <span class="tech-tag">GitHub</span>
+                <span class="tech-tag">VS Code</span>
+            </div>
+        </section>
+
+        <!-- روابط مهمة -->
+        <section class="links-section">
+            <h2>🔗 روابط مهمة</h2>
+            <div class="links">
+                <a href="https://github.com/Sedraklader/task-management-system" class="link-btn" target="_blank">
+                    📁 مستودع GitHub
+                </a>
+                <a href="login.html" class="link-btn">
+                    🔐 صفحة تسجيل الدخول
+                </a>
+                <a href="tasks.html" class="link-btn">
+                    ✅ صفحة المهام
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <p>© 2024 مشروع نظام إدارة المهام - مادة إدارة التكوين</p>
+        <p class="version">الإصدار 1.0.0 | آخر تحديث: <span id="current-date"></span></p>
+        <p class="repo-link">
+            <a href="https://github.com/Sedraklader/task-management-system" target="_blank">
+                github.com/Sedraklader/task-management-system
+            </a>
+        </p>
+    </footer>
+
+    <!-- سكريبت بسيط -->
+    <script>
+        // عرض التاريخ الحالي
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('ar-EG');
+        
+        // رسالة ترحيب في الكونسول (للتقرير)
+        console.log('🚀 نظام إدارة المهام - مشروع إدارة التكوين');
+        console.log('📁 المستودع: https://github.com/Sedraklader/task-management-system');
+        console.log('👥 فريق العمل: طالبان');
+        console.log('🛠 التقنيات: HTML, CSS, JavaScript, Git, GitHub');
+    </script>
+</body>
+</html>
