@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>فريق العمل - مشروع إدارة التكوين</title>
+</head>
+<body>
+    <h1>👥 فريق مشروع نظام إدارة المهام</h1>
+    
+    <h2>معلومات الفريق:</h2>
+    
+    <div style="background: #f0f8ff; padding: 20px; border-radius: 10px; margin: 20px 0;">
+        <h3>الطالب الأول</h3>
+        <p><strong>الدور:</strong> مطور واجهة أمامية</p>
+        <p><strong>المسؤوليات:</strong> HTML, CSS, JavaScript</p>
+    </div>
+    
+    <div style="background: #f0f8ff; padding: 20px; border-radius: 10px; margin: 20px 0;">
+        <h3>الطالب الثاني</h3>
+        <p><strong>الدور:</strong> مطور خلفية ومراجع</p>
+        <p><strong>المسؤوليات:</strong> Git, GitHub, Code Review</p>
+    </div>
+    
+    <p style="margin-top: 30px; color: #666;">
+        تم إنشاء هذه الصفحة في فرع <strong>feature/team-page</strong>
+        <br>
+        التاريخ: <span id="currentDate"></span>
+    </p>
+    
+    <script>
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('ar-EG');
+    </script>
+</body>
+</html>
